@@ -17,6 +17,6 @@ client = Client(ACCOUNT_SID, AUTH_TOKEN)
 message = client.messages.create(
     to=TO_NUMBER, 
     from_=FROM_NUMBER,
-    body="This is a test to send a text message from VS")
+    body="This is a test to send a text message :D")
 
 print(message.sid)
